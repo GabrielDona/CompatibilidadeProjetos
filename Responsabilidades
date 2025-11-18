@@ -1,0 +1,58 @@
+Tema Geral: Integração de Múltiplos Paradigmas em um Único Projeto
+O objetivo deste trabalho é desenvolver, em grupo, um projeto funcional que integre diferentes linguagens de programação e paradigmas em uma aplicação única e coerente.
+
+O grupo deverá demonstrar que compreende o papel de cada linguagem envolvida e como elas podem se complementar para resolver um problema computacional simples.
+
+Linguagens obrigatórias a serem utilizadas
+
+    HTML e CSS: Para estrutura e apresentação da interface.
+    JavaScript: para interação e comunicação com o backend.
+    Python: para servir como camada intermediária (backend/API) que processa as requisições e interage com o Prolog.
+    Prolog: para representar a base de conhecimento e aplicar a lógica declarativa (fatos e regras).
+
+Descrição da tarefa
+O grupo deverá escolher um dos 10 temas sugeridos (ou propor um novo, mediante aprovação do professor) e desenvolver uma aplicação simples onde:
+O usuário interage com o site (HTML/CSS/JS), fazendo uma pergunta ou solicitando uma informação.
+O frontend envia a solicitação para o Python, que atua como intermediário.
+O Python consulta o Prolog, que contém os fatos e regras lógicas, e retorna a resposta.
+O resultado é exibido ao usuário de forma clara e amigável.
+O sistema deve conter:
+Pelo menos 24 fatos e 4 regras no Prolog.
+Uma interface funcional, ainda que simples.
+Um fluxo completo: entrada do usuário → processamento → resposta.
+
+Documentação individual obrigatória
+Sabendo que as ferramentas de Inteligência Artificial (como ChatGPT e Copilot) são amplamente utilizadas no processo de desenvolvimento, cada aluno deverá entregar (via foto nesta atividade) também um registro individual, escrito à caneta, contendo:
+Descrição do papel de cada linguagem (HTML, CSS, JS, Python, Prolog) dentro do projeto.
+As maiores dificuldades enfrentadas durante o desenvolvimento.
+Como o grupo superou essas dificuldades, incluindo eventuais usos de IA, tutoriais ou experimentos práticos.
+O principal aprendizado pessoal obtido com o trabalho.
+
+    Este documento individual será entregue via foto/scanner em meio digital nesta atividade, em arquivo compactado com a identificação completa (nome e matricula).
+    A ausência deste registro individual implicará na perda da nota do aluno nesta atividade, mesmo que o grupo entregue o projeto completo.
+
+
+
+Entrega do trabalho (Grupo)
+
+    Pasta do projeto compactada (.zip ou .rar) com todo o código-fonte.
+    Link com Vídeo curto (máx. 3 minutos) demonstrando o funcionamento do sistema do início ao fim.
+    Cada grupo deve escolher um sistema entre as sugestões à seguir (não pode haver repetido).
+    Ao escolher um representante do grupo deve indicar no mural que ele escolher para evitar que outro grupo escolha.
+    Em caso de repetir, o primeiro a publicar no mural tem prioridade.
+
+Prolog: aluno('ana', backend)., aluno('bruno', frontend)., projeto('sistema_web', [frontend, backend]).
+Regra: grupo é válido se cobre todas as skills do projeto.
+Frontend: o grupo informa quem está no time e o sistema diz se o time atende ao projeto.
+Python: envia os membros para Prolog e recebe “adequado/não adequado”.
+
+
+
+1 - HTML, CSS - 
+    Criação do visual da página e funcionalidades do frontend
+1 - Javascript - 
+    Criação da lógica por tras do frontend, terá comunicação com Python
+2 - Python - Caio e
+    Criação da lógica por tras do Backend, terá comunicação com o JS
+1 - Prolog - Nycolas
+    Criação da base de conhecimento e regras que 
