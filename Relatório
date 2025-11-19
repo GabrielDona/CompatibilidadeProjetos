@@ -18,4 +18,6 @@ dos alunos, suas habilidades e as regras que determinam se o grupo cobre
 as skills exigidas, nele foi feita a base de conhecimento e as regras, 
 criando os fatos dos alunos, suas habilidades e os requisitos do projeto, 
 além da lógica que reúne as skills do time e verifica se todas as exigências 
-são atendidas. 
+são atendidas, utilizamos de pesquisa para fazer o código em prolog e tivemos 
+dificuldades em fazer com que as linguagens funcionassem corretamente umas com
+as outras.
