@@ -12,3 +12,10 @@ O principal aprendizado pessoal obtido com o trabalho.
 
 
 RELATÓRIO:
+A interface foi feita em HTML/CSS, o JavaScript coleta os nomes informados 
+e envia ao backend em Python, que consulta o Prolog, que contém os fatos 
+dos alunos, suas habilidades e as regras que determinam se o grupo cobre 
+as skills exigidas, nele foi feita a base de conhecimento e as regras, 
+criando os fatos dos alunos, suas habilidades e os requisitos do projeto, 
+além da lógica que reúne as skills do time e verifica se todas as exigências 
+são atendidas. 
